@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Opacity } from "@mui/icons-material";
+//import { Opacity } from "@mui/icons-material";
 
 const MotionWrap = (Component, className) =>
   function HOC() {

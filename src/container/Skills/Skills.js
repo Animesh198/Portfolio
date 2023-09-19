@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { AppWrapp, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
-import { Tooltip as ReactTooltip, Tooltip } from "react-tooltip";
+import { Tooltip } from "react-tooltip";
 const Skills = () => {
   const [experience, setExperience] = useState([]);
   const [skills, setSkills] = useState([]);
